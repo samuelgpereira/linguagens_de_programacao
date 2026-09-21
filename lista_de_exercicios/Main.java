@@ -1,13 +1,14 @@
+//Dado:
+//int[] numeros = { 10, 20, 30, 40, 50 };
+//Exiba todos os elementos. 
+//Você deve usar `for`
+
 public class Main{
     public static void main(String[] args){
-        //1 - Maior de 2 numeros
-        //Crie 2 variáveis inteiras e mostre qual delas é maior
-        int numero_1 = 10, numero_2 = 20;
-        if (numero_1 > numero_2){
-            System.out.println("O maior valor eh: " + numero_1);
-        }else{
-            System.out.println("O maior valor eh " + numero_2);
+        int[] numeros = {10, 20, 30, 40, 50};
+        for(int i=0; i < numeros.length; i++){
+            System.out.println(numeros[i]);
         }
-
+        
     }
 }
